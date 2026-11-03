@@ -1,0 +1,39 @@
+{
+    "name": "microweber-frontend-assets-libs",
+    "version": "1.0.0",
+    "description": "Microweber front-end libs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microweber-packages/frontend-assets-libs.git"
+    },
+    "private": true,
+    "scripts": {
+        "build": "node build.mjs",
+        "dev": "node build.mjs"
+    },
+    "dependencies": {
+        "@mdi/font": "^7.4.47",
+        "async-alpine": "^2.0.1",
+        "bootstrap-datepicker": "^1.10.0",
+        "bxslider": "^4.2.17",
+        "codemirror": "^5.65.18",
+        "dompurify": "^3.2.6",
+        "easymde": "^2.18.0",
+        "flag-icons": "^7.2.3",
+        "fs-extra": "^11.2.0",
+        "highlight.js": "^11.10.0",
+        "jquery": "^3.7.1",
+        "jquery-ui": "^1.13.3",
+        "masonry-layout": "^4.2.2",
+        "material-icons": "^1.13.12",
+        "moveable": "^0.53.0",
+        "nouislider": "^15.8.1",
+        "rangy": "^1.3.1",
+        "slick-carousel": "^1.8.1",
+        "swiper": "^12.2.0",
+        "xss": "^1.0.15"
+    },
+    "devDependencies": {
+        "webfontloader": "^1.6.28"
+    }
+}
